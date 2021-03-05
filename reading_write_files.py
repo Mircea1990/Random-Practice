@@ -1,0 +1,7 @@
+employee_file = open("emplyees.txt", "w")
+employee_file.write("\nEmployee name: Stefan Fanel")
+employee_file.write("\nEmployee name: Constantinescu Ion")
+employee_file.write("\nEmployee name: Basescu Mircea")
+employee_file = open("emplyees.txt", "r")
+print(employee_file.read())
+employee_file.close()
